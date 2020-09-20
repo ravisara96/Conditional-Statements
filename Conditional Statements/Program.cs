@@ -87,13 +87,7 @@ namespace Conditional_Statements
                     // Pause the program and wait few seconds until user press any eo end the window.
                     Console.ReadKey(true);
                 } 
-                // If user doesn't enter a value between 0 and 100
-                else
-                {
-                    Console.WriteLine("Please enter an integer value between 0 and 100 and try again");
-                    Console.WriteLine("Press any key to exit the program");
-                    Console.ReadKey(true);
-                }
+                
             }// End of Entry 
             catch
             {
